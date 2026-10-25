@@ -1,0 +1,20 @@
+{
+  "name": "meetsmore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc",
+    "ex": "tsx",
+    "test": "for f in solutions/*.ts; do echo \"== $f\"; tsx \"$f\" || exit 1; done"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
